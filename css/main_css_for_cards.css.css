@@ -1,4 +1,4 @@
-ï»¿:root {
+:root {
 	--main-color: #eb5757;
 	--bg-color: #f4f4f4;
 	--bg-content-color: #fff;
@@ -108,7 +108,7 @@ body {
 }
 
 .separate-dot:after {
-	content: ' Â· '
+	content: ' ¡¤ '
 }
 
 h1,h2,h3,h4,h5 {
@@ -1255,17 +1255,8 @@ a.search-result__link:hover {
 	}
 }
 
-.post-thumbnail {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;s
-	display: flex;
-	width: 100%;
-	padding-bottom: 60%;
-	background-size: cover;
-	background-repeat: repeat;
-	background-position: 50% 50%;
-	background-origin: padding-box;
-	background-attachment: scroll
-}
 
+/*ÏÂÃæÊÇ×Ô¶¨ÒåµÄ*/
+.post-entry__header .post-thumbnail, .post__header .post-thumbnail {
+	padding-bottom: 80%;
+}
